@@ -9,6 +9,6 @@ key = int(input("Enter the Id your searching "))
 
 for i in range(0, len(Id)):
     if Id[i] == key:
-        print("Found at postion ", Id[i])
-    elif Id[i] == Id[len(Id) - 1]:
-        print("Not found")
+        print("Found at postion ", i+1)
+    elif i == n and i != key:
+        print("not found")
